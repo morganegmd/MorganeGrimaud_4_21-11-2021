@@ -22,6 +22,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -105,11 +106,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #FEF8F6;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: #FFFFFF;
 }
 
 .d-bloc .icon-round,
@@ -659,10 +660,14 @@ h6,
 p,
 label,
 .btn,
-a {
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+a {
+ color: #1A1A1A;
 }
 
 .container {
@@ -792,12 +797,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color:#141414!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #141414!important;
 }
 
 .ltc-white {
@@ -837,11 +842,7 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-.col-sm-4 
-.col-sm-3
-.col-sm-12 {
-    color:#1C1C1C;
-}
+
 
 @media (max-width: 1024px) {
     .bloc {
