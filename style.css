@@ -288,6 +288,7 @@ a:hover {
 }
 
 .navbar {
+    display: flex;
     margin-bottom: 0;
     z-index: 1;
 }
@@ -365,8 +366,8 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        right: 50px;
+        top: 30px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -375,7 +376,7 @@ a:hover {
         color: #484848;
     }
     .nav-invert .site-navigation {
-        left: 0;
+        left: 0-to
         right: 0;
     }
     .nav-center {
@@ -400,6 +401,8 @@ a:hover {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+        right: 20px;
+    
     }
 }
 
@@ -913,13 +916,17 @@ h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
+    
     .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
+       display: flex;
+       flex-direction: column;
+       margin: 0 10px;
     }
+    
     .site-navigation {
         position: inherit;
         transform: none;
+        display: flex;
         -webkit-transform: none;
         -ms-transform: none;
     }
@@ -966,6 +973,7 @@ h4 {
         width: auto;
     }
     .nav-invert .navbar-header {
+        
         float: none;
         width: 100%;
     }
