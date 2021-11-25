@@ -23,6 +23,7 @@ a:hover {
 }
 
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -371,6 +372,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
 
 @media (min-width: 768px) {
     .site-navigation {

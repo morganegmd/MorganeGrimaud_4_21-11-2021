@@ -1634,11 +1634,6 @@ p {
     line-height: 1.4
 }
 
-.col-sm-4 
-.col-sm-3
-.col-sm-12 {
-    color:#1C1C1C;
-}
 
 @media (min-width:768px) {
     .lead {
@@ -2090,6 +2085,10 @@ pre code {
     float: left
 }
 
+.col-sm-6 {
+
+    font-size: 1.3em;
+}
 
 .col-xs-12 {
     width: 100%
